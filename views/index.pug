@@ -1,0 +1,12 @@
+doctype html
+html
+    head
+        title Simple authentication example
+    body
+        h1 Simple authentication example
+        h3 Please Login
+        form(method="POST", action="/login")
+            p Username 
+            input(type="text", name="username")
+            p
+            input(type="submit", name="submit", value="login")
